@@ -28,10 +28,7 @@ Creating our Azure account: <br/>
 <p align="center">
 Next we want to Create a Resource Group: <br/>
 <img src="https://imgur.com/2YUZbJw.png" height="80%" width="80%""/>
- <p align="center"> We want to download our Windows Server 2019 ISO and Windows 10 ISO.
-                    Then we want to set up our server within our Virtual Box. Give it a name.(ie; DC)
-                    Set other parameters for your VM like RAM,Number of Processors,Network Adapters(NAT,
-                    Internal Network),Storage. Remember to put the ISO server in the Optical Drive  
+ <p align="center"> After you have created your Azure account and log in you need to first create a Resource Group. A resource group is like a folder for cloud resources like Virtual Machines, Virtual Networks etc. After we have created our research group we want to create a Virtual Network inside of the resource group. Then we will create a virtual machine and attach it to the virtual network. We will log into the virtual Machine, turn off the Firewall, to make it enticing to attackers. We will also make a network security group, thisi is like a cloud firewall which we will also completely open it up as well to attackers.  So we hit the setting create, then give the resource group a name ie;RG-SOC-Lab, then put it in a region: ie;East US 2-This mean the when we create the folder in the cloud it will exists in a Azure Datacenter somewhere on the Eastern part the United States, then create the group folder.
                   <br/>
 
 
