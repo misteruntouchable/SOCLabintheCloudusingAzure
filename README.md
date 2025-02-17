@@ -58,3 +58,19 @@ Note: If you go back to the resource group you should see our virtual network we
 <br />
 <br />
 
+<br />
+
+<p align="center">
+Next create the Virtual Machine: <br/>
+<img src="https://imgur.com/8Qq5XTT.png" height="80%" width="80%""/>
+ <p align="center"> After you have created your Virtual Network, the next step is to crete a VM. This will be our HoneyPot exposed 
+                    to the internet that the public will attack. So hit create, then next resource groups-choose the name of the 
+                    resource group you created already,give you VM a name (ie;CORP-NET-EAST1), give it a username and password.
+                    Create and Deploy the VM, Note: again if you go back to your resource group, then click your Virtual Network, 
+                    within the Virtual Network you should see your virtual machine, and other components like your public ip
+                    address, a network security group, and a network interface.<br/>
+
+
+<br />
+<br />
+
