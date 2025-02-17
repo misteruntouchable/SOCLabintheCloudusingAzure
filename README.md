@@ -34,3 +34,27 @@ Next we want to Create a Resource Group: <br/>
 
 <br />
 <br />
+
+<br />
+
+<p align="center">
+Next create the Virtual Network: <br/>
+<img src="https://imgur.com/2EUJzlo.png" height="80%" width="80%""/>
+ <p align="center"> After you have created a Resource Group, go to Virtual Network. A virtual network is like your home router 
+                    that your computer plugs into that connect to the WI-FI, but in the cloud. So hit create, name your virtual 
+                    network ie; "vnet-soc-lab", you can leave the other settings defaults but ensure that the virtual network is 
+                    in the smae region as your resouce group<br/>
+
+
+<br />
+<br />
+
+<p align="center">
+Note: If you go back to the resource group you should see our virtual network we created  <br/>
+<img src="https://imgur.com/UYyStYt.png" height="80%" width="80%""/>
+
+
+
+<br />
+<br />
+
