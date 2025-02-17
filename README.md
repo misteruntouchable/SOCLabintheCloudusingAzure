@@ -74,3 +74,28 @@ Next create the Virtual Machine: <br/>
 <br />
 <br />
 
+<p align="center">
+Next we want to open up the Network Security Group(Firewall): <br/>
+<img src="https://imgur.com/kGd9JCz.png" height="80%" width="80%""/>
+ <p align="center"> We want to go into our Network Security group via Resource Groups in Azure. Then we want to go to the inbound 
+                    rule section and remove the Remote Desktop Protocol inbound rule. We want to create our own inbound rule that 
+                    will open our VM up to the public and make it attractive for attackers. So after we have removed this rule 
+                    to the setting the allow for any kind of traffic to flow into the VM. This is what will create an attraction 
+                    for other attackers. <br/>
+
+
+<br />
+<br /
+
+<br />
+<br />
+
+<p align="center">
+Now we want to Log into our VM: <br/>
+<img src="https://imgur.com/YgSq7N1.png" height="80%" width="80%""/>
+ <p align="center">  <br/>
+
+
+<br />
+<br /
+
