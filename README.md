@@ -188,3 +188,16 @@ Windows Firewall Defender Properties Box (example;) <br/>
 
 <br/>
 <br/>
+<br />
+<br/>
+
+<p align="center">
+  The next thing we want to do is link our Virtual Machine to our Repository(Log Analytic Workspace) <br/>
+<img src="https://imgur.com/ggGEFsW.png" height="80%" width="80%""/>
+ <p align="center"> This means it creates a connection between Virtual Machine and Log Analytics Workspace so that we can 
+                     receive logs in Sentinel and observe them. To do that we go to Microsoft Sentinel then we go to Content
+                     Hub,<br/>
+
+
+<br/>
+<br/>
