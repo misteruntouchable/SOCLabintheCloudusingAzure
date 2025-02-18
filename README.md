@@ -149,7 +149,41 @@ Windows Firewall Defender Properties Box (example;) <br/>
 <p align="center">
  Pinging our VM <br/>
 <img src="https://imgur.com/3ypJQ5A.png" height="80%" width="80%""/>
- <p align="center">  Now we want to ping our VM from our local computer to mkae sure that we can <br/>
+ <p align="center">  Now we want to ping our VM from our local computer to make sure that we reach out to the public internet, 
+                     because if we can reach our VM from our local computer then everyone else can. So go to your command prompt
+                     ,run as admin then ping and your VM ip address. If you get a reply that means you have the ability to reach 
+                      your VM.<br/>
+
+
+<br/>
+<br/>
+<br />
+<br/>
+
+<p align="center">
+  We want to create a Log Repository <br/>
+<img src="https://imgur.com/MOOrFbL.png" height="80%" width="80%""/>
+ <p align="center">Next we are going to create a log repository for the VM to deposit their logs there. So the first thing 
+                   we are going to do here is create a Log Analytic Workspace(this is going to be our log repository). 
+                   So we go to Log Analytic Workspace and hit create. We will create a resource group (the resource group we 
+                   created already), then we will name the analytic workspace and ensure that the workspace is in the same 
+                   region as the VM and other components that we have created already. Then create and deploy.<br/>
+
+
+<br/>
+<br/>
+<br />
+<br/>
+
+<p align="center">
+  The next thing we want to do is create our Sentinel Instance <br/>
+<img src="https://imgur.com/4fwdfQV.png" height="80%" width="80%""/>
+ <p align="center"> A sentinel instance is a security information event management, it is a cybersecurity technology 
+                    that monitors and analyzes security events across an IT environment. SIEM tools can help detect, 
+                    investigate, and respond to security threats. So go to Microsoft Sentinel in Auzre and click create.
+                    Then choose the Log Analytics workspace that we want to link to the Sentinel.Then add.This will link
+                     our Log Analytics workspace to our sentinel instance so that we can get the logs in our repository from
+                     the SEIM.<br/>
 
 
 <br/>
