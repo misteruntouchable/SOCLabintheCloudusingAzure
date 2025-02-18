@@ -242,10 +242,65 @@ Windows Firewall Defender Properties Box (example;) <br/>
 <br/>
 <p align="center">
   Security Event + Run (ie;) <br/>
-<img src="https://imgur.com/s6ziB1M.png" height="80%" width="80%""/>
+<img src="https://imgur.com/DawKkSF.png" height="80%" width="80%""/>
  <p align="center"> You will see logs coming in from the VM. And the VM will be forwarding them using AMA. Security Event 
-                    will usually dump out <br/>
+                    will usually dump out all the logs but if we want to review specific logs we will use the Query Language (KQL)
+                    <br/>
 
+
+<br/>
+<br/>
+<br/>
+<br/>
+<p align="center">
+  Dealing with Geographical Data (ie; Global IP addresses) <br/>
+<img src="https://imgur.com/tN6FFtz.png" height="80%" width="80%""/>
+ <p align="center"> To figure out where all the logs are originating from we will need some sort of Geograpical Data. In order 
+                    to do this we will import a spreadsheet for the logs that we will use to resolve IP addresses
+                    to physical locations on a map. Microsoft Sentinal will make use of the spreadsheet of the global ip addresses
+                    we have created. Go to Microsoft Sentinal in Azure.<br/>
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+<p align="center">
+  Dealing with Geographical Data (Microsoft Sentinel) <br/>
+<img src="https://imgur.com/QANNi6I.png" height="80%" width="80%""/>
+ <p align="center">When in Microsoft Sentinel click on instance then go to watchlist and install the geo spreadsheet file. <br/>
+
+<br/>
+<br/>
+
+<br/>
+<br/>
+<p align="center">
+  Dealing with Geographical Data (Microsoft Watchlist-watchlist wizard) <br/>
+<img src="https://imgur.com/QANNi6I.png" height="80%" width="80%""/>
+ <p align="center">When in Microsoft Sentinel click on instance then go to watchlist and install the geo spreadsheet file. <br/>
+
+<br/>
+<br/>
+
+<br/>
+<br/>
+<p align="center">
+  Dealing with Geographical Data (Create a visual Map) <br/>
+<img src="https://imgur.com/QANNi6I.png" height="80%" width="80%""/>
+ <p align="center">The last thing we want to do is create a visual representation of the logs from users that are trying to access 
+                   our VM. So in Sentinel go to workbooks. This is where will create the Map. Then add workbooks. Go to add Query.Then
+                    advanced editor and paste the map (the map is a json representation of this item) into the query then click done 
+                    editing. <br/>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<p align="center">
+   The Geograhical Mapping of where our Attackers are coming from(Attack Map <br/>
+<img src="https://imgur.com/tGqbeP7.png" height="80%" width="80%""/>
+ <p align="center"> <br/>
 
 <br/>
 <br/>
