@@ -196,7 +196,55 @@ Windows Firewall Defender Properties Box (example;) <br/>
 <img src="https://imgur.com/ggGEFsW.png" height="80%" width="80%""/>
  <p align="center"> This means it creates a connection between Virtual Machine and Log Analytics Workspace so that we can 
                      receive logs in Sentinel and observe them. To do that we go to Microsoft Sentinel then we go to Content
-                     Hub,<br/>
+                     Hub and click on Windows Security Events via AMA and install. After it is installs you must configure it.
+                     So click open connector page. We need to create a data collection rule. This rule will be used for the 
+                     VM to forward logs into our log analytics workspace.<br/>
+
+
+<br/>
+<br/>
+
+<br />
+<br/>
+
+<p align="center">
+  The Data Collection Rule <br/>
+<img src="https://imgur.com/6oVVZBe.png" height="80%" width="80%""/>
+ <p align="center"> When we have filled out this section this will install the Azure Monitor Window Agent within the VM. To 
+                    verify go to VM then click extentions and applications.<br/>
+
+
+<br/>
+<br/>
+
+<br />
+<br/>
+
+<p align="center">
+  The Agent Monitor Windows Agent installed in the Virtual Machine <br/>
+<img src="https://imgur.com/fmb5kAB.png" height="80%" width="80%""/>
+ <p align="center"><br/>
+
+
+<br/>
+<br/>
+<br />
+<br/>
+
+<p align="center">
+  Now we need to deal with Logs in Log Analytics Workspace <br/>
+<img src="https://imgur.com/bxLN1ZO.png" height="80%" width="80%""/>
+ <p align="center"> So we are now going to Log Analytics Workspace, then look for Logs. Our VM should be sending logs here.
+                    to see type security event and then run.<br/>
+
+
+<br/>
+<br/>
+<p align="center">
+  Security Event + Run (ie;) <br/>
+<img src="https://imgur.com/s6ziB1M.png" height="80%" width="80%""/>
+ <p align="center"> You will see logs coming in from the VM. And the VM will be forwarding them using AMA. Security Event 
+                    will usually dump out <br/>
 
 
 <br/>
