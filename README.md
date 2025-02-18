@@ -92,10 +92,65 @@ Next we want to open up the Network Security Group(Firewall): <br/>
 
 <p align="center">
 Now we want to Log into our VM: <br/>
-<img src="https://imgur.com/YgSq7N1.png" height="80%" width="80%""/>
- <p align="center">  <br/>
+<img src="https://imgur.com/Qj5cA0R.png" height="80%" width="80%""/>
+ <p align="center"> Here we are looking to log into our VM and turn off the firewall so our attackers have the ability to invade 
+                   the VM. So to log into the our VM we must go into Virtual Machines in Azure and click our VM. Then copy 
+                   the public IP address in Azure.<br/>
+
+
+<br/>
+<br/>
+
+<p align="center">
+Remote Desktop: <br/>
+<img src="https://imgur.com/SCphGLv.png" height="80%" width="80%""/>
+ <p align="center"> After we have copied the public IP address, in the local computer access your Remote Destop Connection.
+                    Put in the Username and ipaddress ass requested. After you have made your coonection you should see this 
+                    certificate, click yes and you should have access to your Windows 10 VM.<br/>
 
 
 <br />
-<br /
+<br />
 
+<br />
+<br/>
+
+<p align="center">
+Inside the VM <br/>
+<img src="https://imgur.com/6u3ScAH.png" height="80%" width="80%""/>
+ <p align="center">  When inside the VM go to the start button and open your firewall with. When it opens click Windows Defender
+                     Firewall Properties and go through each tab Firewall State (Domain Profile, Private Profile, Public 
+                     Profile and just turn them off. Hit Apply and OK<br/>
+
+
+<br/>
+<br/>
+<p align="center">
+Windows Firewall (example;) <br/>
+<img src="https://imgur.com/YXP1tPZ.png" height="80%" width="80%""/>
+ <br/>
+
+
+<br />
+<br />
+<br/>
+<br/>
+<p align="center">
+Windows Firewall Defender Properties Box (example;) <br/>
+<img src="https://imgur.com/soID9YH.png" height="80%" width="80%""/>
+ <br/>
+
+
+<br />
+<br />
+<br />
+<br/>
+
+<p align="center">
+ Pinging our VM <br/>
+<img src="https://imgur.com/3ypJQ5A.png" height="80%" width="80%""/>
+ <p align="center">  Now we want to ping our VM from our local computer to mkae sure that we can <br/>
+
+
+<br/>
+<br/>
