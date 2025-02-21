@@ -1,8 +1,6 @@
 # SOCLabintheCloudusingAzure
 
- ### [Pictoral Walkthrough Demonstration]
-
- <h2>Description</h2>
+  ### [Pictoral Walkthrough Demonstration]
  In this lab we are going to create a basic home SOC in the Cloud using Azure. So the plan is to sign onto Azure creating a free subscription. Then we are going to create a HoneyPot in Azure, which will bascially be a virtual machine, then we are going to open up that virtual machine to the public to be attacked intentionally.We are going to configure log forwarding to forward the log in failed attack attempts to a central repository. Then we are going to connect that central repository to a SEIM (Azure Sentinel). Lastly, we are going to create an attack map that should show where all the attackers are coming from.
 
 <h2>Languages and Utilities Used</h2>
@@ -10,8 +8,8 @@
 - <b>Azure and its Features</b> 
 - <b>Virtual Machines</b>
 - <b>Azure Sentinel</b>
-- <b>etc</b>
-
+- <b>Azure Resource Group</b>
+- <b>Geographical Map<b>
 <h2>Environments Used </h2>
 
 - <b>Windows 10</b> (21H2)
